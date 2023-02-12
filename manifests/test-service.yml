@@ -10,7 +10,7 @@ spec:
   type: LoadBalancer
   ports:
     - port: 8080
-      protoco: TCP
+      protocol: TCP
       targetPort: 80
   selector:
     app: nginx
